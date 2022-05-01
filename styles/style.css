@@ -18,8 +18,11 @@
 
 .cuerpasoreal{
     display: flex;
+    
 }
-
+.cuerpaso{
+    padding: 10%;
+}
 .segundobloque{
     background-color: pink;
     padding: 10%;
@@ -35,5 +38,5 @@
     text-align: center;
     padding: 30px
 }
-
- 
+/**comentario tablet **/
+ @media (min-width-991px) and (max-width: 1324px) 
