@@ -21,7 +21,19 @@
 }
 
 .segundobloque{
-    background-color: bisque;
+    background-color: pink;
+    padding: 10%;
+}
+
+.card{
+    height: 800 px;
+    width: auto;
 }
  
+.tercerbloque{
+    display: flex;
+    text-align: center;
+    padding: 30px
+}
+
  
