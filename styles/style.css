@@ -21,7 +21,7 @@
     
 }
 .cuerpaso{
-    padding: 10%;
+    padding: 5%;
 }
 .segundobloque{
     background-color: pink;
@@ -38,5 +38,10 @@
     text-align: center;
     padding: 30px
 }
-/**comentario tablet **/
- @media (min-width-991px) and (max-width: 1324px) 
+/**comentario celular **/
+ @media (min-width-478px){
+
+
+
+    
+ } /**comentario tablet and (max-width: 1324px) **/
