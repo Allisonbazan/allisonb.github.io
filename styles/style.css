@@ -1,7 +1,7 @@
-.container{
+.container {
     height: auto;
     width: auto;
-    background-color: blueviolet; 
+    background-color: blueviolet;
     display: flex;
     justify-content: center;
     /* flex-wrap: wrap;  */
@@ -10,51 +10,65 @@
 }
 
 
-.promocion{
+.promocion {
     background-color: pink;
     padding: 2px;
     text-align: center;
-    border-radius:  50px;
+    border-radius: 50px;
 }
 
-.titulogrande{
+.titulogrande {
     padding: 20px;
     text-align: center;
 }
 
-.cuerpasoreal{
+.cuerpasoreal {
     display: flex;
-    
+
 }
-.cuerpaso{
+
+.cuerpaso {
     padding: 5%;
 }
-.segundobloque{
+
+.segundobloque {
     background-color: pink;
     padding: 10%;
 }
 
-.card{
+.card {
     height: 800 px;
     width: auto;
 }
- 
-.tercerbloque{
+
+.tercerbloque {
     display: flex;
     text-align: center;
     padding: 30px
 }
+
 /**comentario celular **/
- @media screen and (max-width:480px){
-     .container{
-         background-color: chartreuse;
-     }
+@media screen and (max-width:480px) {
+    .container {
+        background-color: chartreuse;
+    }
 
-     .imagenprimer img{
-        height: 200px;
-        width: 200px;
-     }
-     
- } /**comentario tablet and (max-width: 1324px) **/
+    .cuerpasoreal {
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+        flex-direction: column;
+    }
 
- @media (max-width: 478px) {  }
+    .imagenprimer img {
+        height: 400px;
+        width: 400px;
+    }
+
+}
+
+/**comentario tablet and (max-width: 1324px) **/
+
+@media (max-width: 478px) {}
