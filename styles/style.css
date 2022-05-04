@@ -1,4 +1,4 @@
-.container {
+.container_main {
     height: auto;
     width: auto;
     background-color: blueviolet;
@@ -48,13 +48,77 @@
 }
 
 /**comentario celular **/
-@media screen and (max-width:480px) {
-    .container {
-        background-color: chartreuse;
+@media (max-width: 478px) {
+    
+    .tercerbloque{
+         
+        display: flex;
+        justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+        flex-direction: column;
     }
 
+    .imagentercerbloqueofi img{
+        height: 350px;
+        width: 300px;
+    }
+    
+    .subtercergrupo{
+         
+        display: flex;
+        justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+        flex-direction: column;
+    }
     .cuerpasoreal {
-        background-color: aqua;
+        
+        display: flex;
+        justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+        flex-direction: column;
+    }
+
+    .imagenprimer img {
+        height: 350px;
+        width: 350px;
+    }
+
+}
+/**comentario tablet **/
+@media (min-width: 477px) and (max-width: 990px) {
+    .container_main {
+        
+        justify-content: center;
+    }
+    .tercerbloque{
+        
+        display: flex;
+        justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+        flex-direction: column;
+    }
+    
+    .imagentercerbloqueofi img {
+        height: 550px;
+        width: 550px;
+        
+        justify-content: center;
+        
+    }
+    .subtercergrupo{
+        
+        display: flex;
+        justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+        flex-direction: column;
+    }
+    .cuerpasoreal {
+            
         display: flex;
         justify-content: center;
     /* flex-wrap: wrap;  */
@@ -65,10 +129,8 @@
     .imagenprimer img {
         height: 400px;
         width: 400px;
+        justify-content: center;
+        
     }
 
 }
-
-/**comentario tablet and (max-width: 1324px) **/
-
-@media (max-width: 478px) {}
