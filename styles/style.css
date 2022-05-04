@@ -1,8 +1,14 @@
 .container{
     height: auto;
     width: auto;
-     
+    background-color: blueviolet; 
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap;  */
+    /*para  ponerlo todo en columna es mejor para dispositivos moviles*/
+    flex-direction: column;
 }
+
 
 .promocion{
     background-color: pink;
@@ -40,7 +46,10 @@
 }
 /**comentario celular **/
  @media screen and (max-width:480px){
-     
+     .container{
+         background-color: chartreuse;
+     }
+
      .imagenprimer img{
         height: 200px;
         width: 200px;
