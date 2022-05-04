@@ -39,9 +39,14 @@
     padding: 30px
 }
 /**comentario celular **/
- @media (min-width-478px){
+ @media screen and (max-width:480px){
+     
+     .imagenprimer img{
+        height: 200px;
+        width: 200px;
+     }
+     
 
 
 
-    
  } /**comentario tablet and (max-width: 1324px) **/
