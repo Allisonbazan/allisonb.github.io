@@ -46,7 +46,6 @@
         width: 200px;
      }
      
-
-
-
  } /**comentario tablet and (max-width: 1324px) **/
+
+ @media (max-width: 478px) {  }
